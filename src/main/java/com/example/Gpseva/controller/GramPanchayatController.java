@@ -8,7 +8,7 @@ import com.example.Gpseva.service.GramPanchayatService;
 
 @RestController
 @RequestMapping("/api/register")
-@CrossOrigin(origins = "http://localhost:3000")
+
 public class GramPanchayatController {
 
     private final GramPanchayatService service;
